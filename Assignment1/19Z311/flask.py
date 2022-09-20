@@ -18,7 +18,7 @@ class Hello(Resource):
 	# is a GET request for this resource
 	def get(self):
 
-		return jsonify({'message': 'hello world'})
+		return jsonify({'message': 'Inventory management'})
 
 	# Corresponds to POST request
 	def post(self):
