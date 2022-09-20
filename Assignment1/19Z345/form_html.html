@@ -1,0 +1,93 @@
+<!-- *************************************************************************** -->
+<h1>Your Info</h1>
+<!-- *************************************************************************** -->
+<link rel="stylesheet" href="form_css.css"> 
+<p>Personal details</p>
+
+<table class="table_sign_up">
+	<thead>
+		<tr>
+			<th>Info Needed</th>
+			<th>Enter It Here</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				E-Mail Address
+			</td>
+			<td>
+				<input type="text" name="email" value="" required maxlength="254" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				First Name
+			</td>
+			<td>
+				<input type="text" name="firstname" value="" required maxlength="100" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Last Name
+			</td>
+			<td>
+				<input type="text" name="lastname" value="" required maxlength="100" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Password
+			</td>
+			<td>
+				<input type="password" name="password" value="" required  maxlength="8" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Dress Size
+			</td>
+			<td>
+				<select name="dress_size" required>
+					<option value=""  selected="selected" ></option>
+					<option value="Extra Small"  >Extra Small</option>
+					<option value="Small"  >Small</option>
+					<option value="Medium"  >Medium</option>
+					<option value="Large"  >Large</option>
+					<option value="Extra Large"  >Extra Large</option>
+					<option value="2XL"  >2XL</option>
+					<option value="3XL"  >3XL</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Gender
+			</td>
+			<td>
+<input type="radio" id="male" name="male" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="female" value="female">
+<label for="female">Female</label><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Address
+			</td>
+			<td>
+				<textarea id="add" name="add" rows="5" cols="15"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Submit
+			</td>
+			<td>
+				<input type="submit" id="success" value="Success"></input>
+			</td>
+		</tr>
+		<tr>
+	</tbody>
+</table>
