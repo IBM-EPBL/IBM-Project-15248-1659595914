@@ -1,0 +1,92 @@
+<!-- *************************************************************************** -->
+<h1>Student's information</h1>
+<!-- *************************************************************************** -->
+<link rel="stylesheet" href="form_css.css"> 
+<p>Personal details of a student</p>
+
+<table class="table_sign_up">
+	<thead>
+		<tr>
+			<th>Your Details</th>
+			<th>Type it</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				E-Mail Address
+			</td>
+			<td>
+				<input type="text" name="email" value="" required maxlength="254" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				First Name
+			</td>
+			<td>
+				<input type="text" name="firstname" value="" required maxlength="100" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Last Name
+			</td>
+			<td>
+				<input type="text" name="lastname" value="" required maxlength="100" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Password
+			</td>
+			<td>
+				<input type="password" name="password" value="" required  maxlength="8" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Subjects
+			</td>
+			<td>
+				<select name="dress_size" required>
+					<option value=""  selected="selected" ></option>
+					<option value="Artificial Intelligence"  >Artificial Intelligence</option>
+					<option value="Microprocessor"  >Microprocessor</option>
+					<option value="Machine Learning"  >Machine Learning</option>
+					<option value="Operating Systems"  >Operating Systems</option>
+					<option value="OOPS"  >OOPS</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Gender
+			</td>
+			<td>
+<input type="radio" id="male" name="male" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="female" value="female">
+<label for="female">Female</label><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Address
+			</td>
+			<td>
+				<textarea id="add" name="add" rows="5" cols="10"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Submit
+			</td>
+			<td>
+				<input type="submit" id="success" value="Success"></input>
+			</td>
+		</tr>
+		<tr>
+	</tbody>
+</table>
