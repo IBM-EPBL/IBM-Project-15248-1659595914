@@ -1,0 +1,2 @@
+Hospital chatbot link:
+https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?integrationID=068a6462-59db-4946-803c-3abad116eacd&region=au-syd&serviceInstanceID=afd93dd2-7b67-4a34-8eab-726d80e513f2
