@@ -1,1 +1,1 @@
-https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?integrationID=0c4682e0-49f4-4a83-80f3-edc8d25a4dcc&serviceInstanceID=2a7b3cc9-9301-4d36-a504-d09f1f488bca
+https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?integrationID=0c4682e0-49f4-4a83-80f3-edc8d25a4dcc&region=au-syd&serviceInstanceID=2a7b3cc9-9301-4d36-a504-d09f1f488bca
