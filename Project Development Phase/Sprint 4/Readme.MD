@@ -1,1 +1,1 @@
-
+Created a flask project and Uploaded all the user interface files needed for inventory management system.(HTML and CSS files)
