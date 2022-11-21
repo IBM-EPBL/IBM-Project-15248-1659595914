@@ -8,3 +8,5 @@ Once retailers successfully log in to the application they can update their inve
 
 **Video Demo link:**
 https://youtu.be/TfzDwWgljKc
+
+Host link : http://159.122.174.193:31272/
